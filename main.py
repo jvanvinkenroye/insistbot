@@ -2,11 +2,11 @@ import tweepy
 import random
 
 # authentifikations daten
-bearer_token = "AAAAAAAAAAAAAAAAAAAAALymhQEAAAAAXNnHi2IZWb7GlbqLzRS2pYrVjjo%3Dpxv61uF5GQM4Y6LRqJIyrziO7CT1DMn2vFE1WLQFvCqDQYOMby"
-consumer_key = "CvoDQM2t1WMLyVIPkZN2BTPLK"
-consumer_secret = "HKveYnYqp7vCYYrQ3C2OFOAWZ4xvXp9Vwyzho6wIJGCf9CjYL2"
-access_token = "1573406533697896448-DyYL6sxOFv8adtQHR7E0qZrnG7RHq7"
-access_token_secret = "VlHIyh2oxQAwXWvX8X2KE7wgolumf2kn0ymTV6bzdC3zv"
+bearer_token = ""
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # client initialisieren
 client = tweepy.Client(bearer_token, consumer_key, consumer_secret, access_token, access_token_secret)
